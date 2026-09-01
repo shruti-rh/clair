@@ -37,4 +37,5 @@ USER nobody:nobody
 
 COPY --from=build /app/clair /bin/clair
 COPY --from=build /app/clairctl /bin/clairctl
-COPY contrib/art/repository-to-cpe.json contrib/art/container-name-repos-map.json /data/
+ADD https://www.redhat.com/security/data/metrics/repository-to-cpe.json /data/
+ADD https://www.redhat.com/security/data/metrics/container-name-repos-map.json /data/
