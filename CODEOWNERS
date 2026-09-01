@@ -1,1 +1,2 @@
-*	@quay/clair
+*	@quay/clair @quay/clair-maintainers
+contrib/art/*	@quay/automated-release-tooling
