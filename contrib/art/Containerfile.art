@@ -37,5 +37,4 @@ USER nobody:nobody
 
 COPY --from=build /app/clair /bin/clair
 COPY --from=build /app/clairctl /bin/clairctl
-ADD https://raw.githubusercontent.com/quay/quay-konflux-components/redhat-3.17/components/clair/data/repository-to-cpe.json /data/
-ADD https://raw.githubusercontent.com/quay/quay-konflux-components/redhat-3.17/components/clair/data/container-name-repos-map.json /data/
+COPY contrib/art/repository-to-cpe.json contrib/art/container-name-repos-map.json /data/
