@@ -1,0 +1,10 @@
+---
+metadata:
+  version: "1.0"
+artifacts:
+  - download_url: https://www.redhat.com/security/data/metrics/repository-to-cpe.json
+    checksum: sha256:e7d94a73a4cae50d3c33443c92c61369d2ce4e58c6efdbdf262cac399c8d0046
+    filename: repository-to-cpe.json
+  - download_url: https://www.redhat.com/security/data/metrics/container-name-repos-map.json
+    checksum: sha256:4f5e76f99db36252ff83cbf492ac9bb85c10e7abbe890a2769281469105d2608
+    filename: container-name-repos-map.json
